@@ -57,6 +57,12 @@ button:hover {
   background-color: rgb(95, 110, 201);
 }
 
+button:active {
+  background-color: rgb(95, 110, 201);
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
 .operator {
   background-color: #ffffff;
   color: #333;
@@ -68,8 +74,15 @@ button:hover {
 }
 
 .clear{
+  position: relative;
+  border: none;
+  text-align: center;
   background-color: #ff6347;
   color: #333;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .clear:hover {
