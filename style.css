@@ -1,3 +1,4 @@
+/*body styling to center calculator and create a background*/
 body {
   display: flex;
   justify-content: center;
@@ -8,8 +9,9 @@ body {
   background-size: auto;
 }
 
+/*calculator styling for slight visual improvement*/
 .calculator {
-  border: 2px solid #ccc;
+  border: 2px solid #cec8c8;
   border-radius: 10px;
   width: 320px;
   padding: 20px;
@@ -17,7 +19,7 @@ body {
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-
+/*display and input styling for visual*/
 .display {
   text-align: right;
   margin-bottom: 15px;
@@ -29,16 +31,18 @@ input {
   font-size: 24px;
   border: none;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/*display buttons in a grid format for calculator look*/
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
 }
 
+/*button styling*/
 button {
   padding: 15px;
   font-size: 24px;
@@ -47,25 +51,28 @@ button {
   cursor: pointer;
   width: 100%;
   background-color: #7085ab;
-  color: #fff;
+  color: #ffffff;
   transition: background-color 0.3s ease;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
+/*button hover effect*/
 button:hover {
   background-color: rgb(95, 110, 201);
 }
 
+/*button click effect*/
 button:active {
   background-color: rgb(95, 110, 201);
-  box-shadow: 0 1px #666;
+  box-shadow: 0 1px #686767;
   transform: translateY(2px);
 }
 
+/*operator specific styling*/
 .operator {
   background-color: #ffffff;
-  color: #333;
+  color: #333333;
 }
 
 .operator:hover{
@@ -73,6 +80,7 @@ button:active {
 
 }
 
+/*clear button specific styling*/
 .clear{
   background-color: #ff6347;
   color: #333;
