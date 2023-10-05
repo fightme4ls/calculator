@@ -74,15 +74,8 @@ button:active {
 }
 
 .clear{
-  position: relative;
-  border: none;
-  text-align: center;
   background-color: #ff6347;
   color: #333;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
 }
 
 .clear:hover {
