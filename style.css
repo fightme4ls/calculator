@@ -31,7 +31,7 @@ input {
   font-size: 24px;
   border: none;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: rgb(235, 230, 230);
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -71,12 +71,11 @@ button:active {
 
 /*operator specific styling*/
 .operator {
-  background-color: #ffffff;
-  color: #333333;
+  background-color: #a39c9c;
 }
 
 .operator:hover{
-  background-color: lightgrey;
+  background-color: rgb(100, 98, 98);
 
 }
 
